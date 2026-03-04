@@ -1,7 +1,7 @@
 import simpy
 import random
 import statistics
-from process import Job
+from Job import Job
 
 RANDOM_SEED = 42
 

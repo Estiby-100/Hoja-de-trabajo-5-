@@ -1,10 +1,10 @@
-from system import JobSimulator
+from JobSimulator import JobSimulator
 
-TOTAL_JOBS = 100
-ARRIVAL_RATE = 10
+TOTAL_JOBS = 200
+ARRIVAL_RATE = 5
 MEMORY_SIZE = 100
 CPU_UNITS = 1
-INSTRUCTIONS_PER_CYCLE = 3
+INSTRUCTIONS_PER_CYCLE = 6
 
 
 if __name__ == "__main__":
